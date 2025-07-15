@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b850c25-2422-4e8f-acce-8e992e5ad865" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +64,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1752553117" />
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1752553732" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1752553116" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1752553117" />
                   </RecentBranch>
                 </list>
               </option>
@@ -111,9 +111,10 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.restore.workspace.module": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SHELLCHECK.PATH": "/Users/duckheewon/Library/Application Support/JetBrains/IntelliJIdea2025.1/plugins/Shell Script/shellcheck",
     "Spring Boot.BankApiApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dev",
     "last_opened_file_path": "/Users/duckheewon/Desktop/workspace/project/inflearn-multi-module-bank-domain-study/inflearn-multi-module-bank-domain-study/.github",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -295,7 +296,7 @@
       <workItem from="1704853731115" duration="656000" />
       <workItem from="1752466744846" duration="1783000" />
       <workItem from="1752543346164" duration="3362000" />
-      <workItem from="1752546929451" duration="6269000" />
+      <workItem from="1752546929451" duration="6547000" />
     </task>
     <servers />
   </component>
