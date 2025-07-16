@@ -1,6 +1,5 @@
 /** 사용할 의존성 추가 */
 dependencies {
-
     // bank core 를 사용하기 위한 module 추가
     implementation(project(":bank-core"))
 
@@ -12,5 +11,4 @@ dependencies {
 
     // slf4j
     implementation("ch.qos.logback:logback-classic:1.4.14")
-
 }
