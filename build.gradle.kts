@@ -23,6 +23,8 @@ subprojects {
     apply(plugin = "kotlin")
     apply(plugin = "io.spring.dependency-management")
 
+
+
     if (name == "bank-api") {
         apply(plugin = "org.springframework.boot")
         apply(plugin = "org.jetbrains.kotlin.plugin.spring")
@@ -37,6 +39,11 @@ subprojects {
         apply(plugin = "org.jetbrains.kotlin.plugin.jpa")
     }
 
+    the<io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension>().apply {
+        imports {
+            mavenBom("org.springframework.boot:spring-boot-dependencies:3.3.0")
+        }
+    }
     tasks.withType<Test> {
         useJUnitPlatform()
     }

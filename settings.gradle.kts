@@ -5,3 +5,4 @@ rootProject.name = "inflearn-multi-module-bank-domain-study"
 
 include("bank-api")
 include("bank-core")
+include("bank-domain")
