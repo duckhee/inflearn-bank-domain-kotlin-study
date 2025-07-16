@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b850c25-2422-4e8f-acce-8e992e5ad865" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bank-domain/src/main/kotlin/repository/AccountReadViewRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-domain/src/main/kotlin/repository/AccountRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-domain/src/main/kotlin/repository/TransactionReadViewRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-domain/src/main/kotlin/repository/TransactionRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-api/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-api/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-core/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-core/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-domain/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-domain/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,30 +54,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="inflearn-multi-module-bank-domain-study" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="inflearn-multi-module-bank-domain-study" type="f1a62948:ProjectNode" />
-                <item name="bank-domain" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="inflearn-multi-module-bank-domain-study" type="f1a62948:ProjectNode" />
-                <item name="bank-domain" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="inflearn-multi-module-bank-domain-study" type="f1a62948:ProjectNode" />
-                <item name="bank-domain" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="inflearn-multi-module-bank-domain-study" type="f1a62948:ProjectNode" />
-                <item name="bank-domain" type="2d1252cf:ModuleNode" />
                 <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
@@ -376,7 +344,7 @@
       <workItem from="1752466744846" duration="1783000" />
       <workItem from="1752543346164" duration="3362000" />
       <workItem from="1752546929451" duration="6614000" />
-      <workItem from="1752640158958" duration="7882000" />
+      <workItem from="1752640158958" duration="8266000" />
     </task>
     <servers />
   </component>
