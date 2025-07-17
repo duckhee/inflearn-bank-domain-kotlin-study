@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/bank-api" />
             <option value="$PROJECT_DIR$/bank-core" />
             <option value="$PROJECT_DIR$/bank-domain" />
+            <option value="$PROJECT_DIR$/bank-event" />
           </set>
         </option>
       </GradleProjectSettings>
