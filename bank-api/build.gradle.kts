@@ -2,6 +2,8 @@
 dependencies {
     // bank core 를 사용하기 위한 module 추가
     implementation(project(":bank-core"))
+    implementation(project(":bank-event"))
+    implementation(project(":bank-domain"))
 
     // spring web
     implementation("org.springframework.boot:spring-boot-starter-web")
