@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/bank-core" />
             <option value="$PROJECT_DIR$/bank-domain" />
             <option value="$PROJECT_DIR$/bank-event" />
+            <option value="$PROJECT_DIR$/bank-monitoring" />
           </set>
         </option>
       </GradleProjectSettings>

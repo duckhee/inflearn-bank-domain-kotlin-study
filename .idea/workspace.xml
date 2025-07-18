@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b850c25-2422-4e8f-acce-8e992e5ad865" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bank-event/src/main/kotlin/listener/EventReader.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-monitoring/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-monitoring/src/main/kotlin/metrics/BankMetrics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-api/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-api/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-event/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-event/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,12 @@
         <task path="$PROJECT_DIR$/bank-domain">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/bank-monitoring">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/bank-event">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -56,7 +63,31 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="inflearn-multi-module-bank-domain-study" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+                <item name="bank-event" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="inflearn-multi-module-bank-domain-study" type="f1a62948:ProjectNode" />
+                <item name="bank-event" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="inflearn-multi-module-bank-domain-study" type="f1a62948:ProjectNode" />
+                <item name="bank-event" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="inflearn-multi-module-bank-domain-study" type="f1a62948:ProjectNode" />
+                <item name="bank-monitoring" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="inflearn-multi-module-bank-domain-study" type="f1a62948:ProjectNode" />
+                <item name="bank-monitoring" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -125,56 +156,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build inflearn-multi-module-bank-domain-study.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Configure Daemon JVM Criteria.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.inflearn-multi-module-bank-domain-study [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.inflearn-multi-module-bank-domain-study [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.inflearn-multi-module-bank-domain-study [updateDaemonJvm].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.inflearn-multi-module-bank-domain-study:bank-api [bootJar].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.inflearn-multi-module-bank-domain-study:bank-api [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.inflearn-multi-module-bank-domain-study:bank-api [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.inflearn-multi-module-bank-domain-study:bank-domain [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.inflearn-multi-module-bank-domain-study:bank-domain [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.inflearn-multi-module-bank-domain-study:bank-domain [compileKotlin].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.inflearn-multi-module-bank-domain-study:bank-domain [compileTestKotlin].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.inflearn-multi-module-bank-domain-study:bank-domain [jar].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.inflearn-multi-module-bank-domain-study:bank-domain [kotlinSourcesJar].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.restore.workspace.module&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SHELLCHECK.PATH&quot;: &quot;/Users/duckheewon/Library/Application Support/JetBrains/IntelliJIdea2025.1/plugins/Shell Script/shellcheck&quot;,
-    &quot;Spring Boot.BankApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/duckheewon/Desktop/workspace/project/inflearn-multi-module-bank-domain-study/inflearn-multi-module-bank-domain-study/.github&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/duckheewon/Desktop/workspace/project/inflearn-multi-module-bank-domain-study/inflearn-multi-module-bank-domain-study/src/main/kotlin/Main.kt&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build inflearn-multi-module-bank-domain-study.executor": "Run",
+    "Gradle.Configure Daemon JVM Criteria.executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study [build].executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study [clean].executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study [updateDaemonJvm].executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study:bank-api [bootJar].executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study:bank-api [build].executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study:bank-api [clean].executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study:bank-domain [build].executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study:bank-domain [clean].executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study:bank-domain [compileKotlin].executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study:bank-domain [compileTestKotlin].executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study:bank-domain [jar].executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study:bank-domain [kotlinSourcesJar].executor": "Run",
+    "Gradle.inflearn-multi-module-bank-domain-study:bank-event [build].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.restore.workspace.module": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHELLCHECK.PATH": "/Users/duckheewon/Library/Application Support/JetBrains/IntelliJIdea2025.1/plugins/Shell Script/shellcheck",
+    "Spring Boot.BankApiApplication.executor": "Run",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "/Users/duckheewon/Desktop/workspace/project/inflearn-multi-module-bank-domain-study/inflearn-multi-module-bank-domain-study/.github",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/duckheewon/Desktop/workspace/project/inflearn-multi-module-bank-domain-study/inflearn-multi-module-bank-domain-study/src/main/kotlin/Main.kt",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.github" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BankApiApplication">
+  <component name="RunManager" selected="Gradle.inflearn-multi-module-bank-domain-study [build]">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -249,28 +281,6 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="inflearn-multi-module-bank-domain-study:bank-domain [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/bank-domain" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="inflearn-multi-module-bank-domain-study:bank-domain [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -315,6 +325,28 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="inflearn-multi-module-bank-domain-study:bank-event [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/bank-event" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="BankApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="inflearn-multi-module-bank-domain-study.bank-api.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kr.co.won.bank.BankApiApplication" />
@@ -326,9 +358,9 @@
       <list>
         <item itemvalue="Gradle.inflearn-multi-module-bank-domain-study [build]" />
         <item itemvalue="Gradle.inflearn-multi-module-bank-domain-study [clean]" />
+        <item itemvalue="Gradle.inflearn-multi-module-bank-domain-study:bank-event [build]" />
         <item itemvalue="Gradle.inflearn-multi-module-bank-domain-study:bank-domain [jar]" />
         <item itemvalue="Gradle.inflearn-multi-module-bank-domain-study:bank-domain [kotlinSourcesJar]" />
-        <item itemvalue="Gradle.inflearn-multi-module-bank-domain-study:bank-domain [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +384,8 @@
       <workItem from="1752543346164" duration="3362000" />
       <workItem from="1752546929451" duration="6614000" />
       <workItem from="1752640158958" duration="8316000" />
-      <workItem from="1752718561487" duration="4684000" />
+      <workItem from="1752718561487" duration="4796000" />
+      <workItem from="1752818244782" duration="2655000" />
     </task>
     <servers />
   </component>

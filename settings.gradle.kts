@@ -7,3 +7,5 @@ include("bank-api")
 include("bank-core")
 include("bank-domain")
 include("bank-event")
+include("bank-monitoring")
+
