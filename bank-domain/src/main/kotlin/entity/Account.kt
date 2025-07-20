@@ -15,11 +15,9 @@ import java.time.LocalDateTime
 data class Account(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) val id: Long? = null,
     @Column(nullable = false, unique = true) val accountNumber: String,
-    @Column(nullable = false) val balance: BigDecimal,
+    @Column(nullable = false) var balance: BigDecimal,
     @Column(nullable = false) val accountHolderName: String,
     @Column(nullable = false) val createdAt: LocalDateTime = LocalDateTime.now(),
-) {
-    
-}
+)
 
 

@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b850c25-2422-4e8f-acce-8e992e5ad865" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bank-api/src/main/kotlin/service/AccountReadService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-api/src/main/kotlin/service/AccountWriteService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-api/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-api/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-api/src/main/kotlin/common/ApiResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/bank-api/src/main/kotlin/common/ApiResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-domain/src/main/kotlin/dto/View.kt" beforeDir="false" afterPath="$PROJECT_DIR$/bank-domain/src/main/kotlin/dto/View.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-domain/src/main/kotlin/entity/Account.kt" beforeDir="false" afterPath="$PROJECT_DIR$/bank-domain/src/main/kotlin/entity/Account.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +359,7 @@
       <workItem from="1752640158958" duration="8316000" />
       <workItem from="1752718561487" duration="4796000" />
       <workItem from="1752818244782" duration="7516000" />
-      <workItem from="1752984372145" duration="8530000" />
+      <workItem from="1752984372145" duration="11447000" />
     </task>
     <servers />
   </component>
