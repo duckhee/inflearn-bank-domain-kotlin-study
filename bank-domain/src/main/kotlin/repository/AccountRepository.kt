@@ -9,5 +9,6 @@ import org.springframework.stereotype.Repository
 interface AccountRepository : JpaRepository<Account, Long> {
 
     fun findByAccountNumber(accountNumber: String): Account?
+
 }
 

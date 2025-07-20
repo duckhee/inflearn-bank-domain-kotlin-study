@@ -12,7 +12,7 @@ import java.time.LocalDateTime
 
 @Entity
 @Table(name = "tbl_account_read_view")
-class AccountReadView(
+data class AccountReadView(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) val id: Long? = null,
     @Column(nullable = false) val accountNumber: String,
     @Column(nullable = false) val accountHolderName: String,
