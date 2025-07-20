@@ -14,7 +14,7 @@ import java.time.LocalDateTime
 
 @Entity
 @Table(name = "tbl_transaction_read_view")
-class TransactionReadView(
+data class TransactionReadView(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) val id: Long? = null,
     @Column(nullable = false) val accountId: Long = 0,
     @Column(nullable = false) val accountNumber: String = "",

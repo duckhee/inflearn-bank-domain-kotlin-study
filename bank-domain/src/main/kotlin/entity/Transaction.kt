@@ -17,7 +17,7 @@ import java.time.LocalDateTime
 
 @Entity
 @Table(name = "tbl_transaction")
-class Transaction(
+data class Transaction(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) val id: Long? = null,
     @ManyToOne(fetch = FetchType.LAZY) @JoinColumn(name = "account_id", nullable = false) val account: Account,
     @Column(nullable = false) val amount: BigDecimal,

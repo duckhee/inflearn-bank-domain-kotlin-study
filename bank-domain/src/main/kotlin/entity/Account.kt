@@ -12,7 +12,7 @@ import java.time.LocalDateTime
 
 @Entity
 @Table(name = "tbl_account")
-class Account(
+data class Account(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) val id: Long? = null,
     @Column(nullable = false, unique = true) val accountNumber: String,
     @Column(nullable = false) val balance: BigDecimal,

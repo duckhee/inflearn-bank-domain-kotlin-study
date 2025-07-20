@@ -1,6 +1,7 @@
 dependencies {
     implementation(project(":bank-domain"))
 
+    // circuit breaker 의존성
     implementation("io.github.resilience4j:resilience4j-spring-boot2:2.0.2")
     implementation("io.github.resilience4j:resilience4j-circuitbreaker:2.0.2")
     implementation("io.github.resilience4j:resilience4j-retry:2.0.2")
