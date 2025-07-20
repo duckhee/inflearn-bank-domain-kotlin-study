@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b850c25-2422-4e8f-acce-8e992e5ad865" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-api/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-api/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-api/src/main/kotlin/api/WrtieController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-api/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-event/src/main/kotlin/listener/EventReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/bank-event/src/main/kotlin/listener/EventReader.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -371,7 +366,7 @@
       <workItem from="1752818244782" duration="7516000" />
       <workItem from="1752984372145" duration="16039000" />
       <workItem from="1753003938963" duration="66000" />
-      <workItem from="1753004015910" duration="513000" />
+      <workItem from="1753004015910" duration="1016000" />
     </task>
     <servers />
   </component>

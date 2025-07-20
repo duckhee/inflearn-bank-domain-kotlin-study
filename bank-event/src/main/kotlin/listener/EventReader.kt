@@ -128,8 +128,18 @@ class EventReader(
                     balance = account.balance,
                     lastUpdatedAt = LocalDateTime.now(),
                     transactionCount = accountReadView.transactionCount + 1,
-                    totalDeposit = if (transaction.type.name == TransactionType.DEPOSIT.name) accountReadView.totalDeposit + transaction.amount else accountReadView.totalDeposit,
-                    totalWithdrawals = if (transaction.type.name == TransactionType.WITHDRAWAL.name) accountReadView.totalWithdrawals + transaction.amount else accountReadView.totalWithdrawals,
+//                    totalDeposit = if (transaction.type.name == TransactionType.DEPOSIT.name) accountReadView.totalDeposit + transaction.amount else accountReadView.totalDeposit,
+//                    totalWithdrawals = if (transaction.type.name == TransactionType.WITHDRAWAL.name) accountReadView.totalWithdrawals + transaction.amount else accountReadView.totalWithdrawals,
+                    totalDeposit = when {
+                        (transaction.type.name == TransactionType.DEPOSIT.name) -> accountReadView.totalDeposit + transaction.amount
+                        (transaction.type.name == TransactionType.TRANSFER.name) -> accountReadView.totalDeposit + transaction.amount
+                        else -> accountReadView.totalDeposit
+                    },
+                    totalWithdrawals = when {
+                        (transaction.type.name == TransactionType.WITHDRAWAL.name) -> accountReadView.totalWithdrawals + transaction.amount
+                        (transaction.type.name == TransactionType.TRANSFER.name) -> accountReadView.totalWithdrawals + transaction.amount
+                        else -> accountReadView.totalWithdrawals
+                    }
                 )
 
                 accountReadViewRepository.save(updateAccountReadView)
