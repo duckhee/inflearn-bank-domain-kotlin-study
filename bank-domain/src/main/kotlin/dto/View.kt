@@ -1,7 +1,9 @@
 package kr.co.won.bank.domain.dto
 
 import kr.co.won.bank.domain.entity.Account
+import kr.co.won.bank.domain.entity.AccountReadView
 import kr.co.won.bank.domain.entity.Transaction
+import kr.co.won.bank.domain.entity.TransactionReadView
 import kr.co.won.bank.domain.entity.TransactionType
 import java.math.BigDecimal
 import java.time.LocalDateTime
@@ -17,6 +19,14 @@ data class AccountView(
 
     companion object {
         fun from(account: Account) = AccountView(
+            id = account.id!!,
+            accountNumber = account.accountNumber,
+            balance = account.balance,
+            accountHolderName = account.accountHolderName,
+            createdAt = account.createdAt
+        )
+
+        fun fromReadView(account: AccountReadView) = AccountView(
             id = account.id!!,
             accountNumber = account.accountNumber,
             balance = account.balance,
@@ -47,7 +57,19 @@ data class TransactionView(
             createdAt = transaction.createdAt,
             balanceAfter = transaction.account.balance
         )
+
+        fun fromReadView(transaction: TransactionReadView) = TransactionView(
+            id = transaction.id!!,
+            accountId = transaction.accountId!!,
+            accountNumber = transaction.accountNumber,
+            amount = transaction.amount,
+            type = transaction.type,
+            description = transaction.description,
+            createdAt = transaction.createdAt,
+            balanceAfter = transaction.balanceAfter
+        )
     }
+
 }
 
 data class AccountBalanceView(
